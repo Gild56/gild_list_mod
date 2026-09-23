@@ -8,7 +8,7 @@
 	},
 	"id": "gild56.gild_list",
 	"name": "Gild List Integration",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Gild56",
 	"description": "Gild56's List integration for Geometry Dash.",
 	"settings": {
