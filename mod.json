@@ -1,0 +1,52 @@
+{
+	"geode": "5.8.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "gild56.gildlistpositions",
+	"name": "Gild List",
+	"version": "v3.0.0",
+	"developer": "Gild56",
+	"description": "Gild56's List integration for Geometry Dash.",
+	"settings": {
+		"placements": {
+			"type": "title",
+			"name": "Placements"
+		},
+		"load-only-on-demonlist": {
+			"type": "bool",
+			"name": "Load only on Demonlist",
+			"default": false,
+			"description": "The level placement won't be loaded or displayed unless you're on the Demonlist screen. On a level page, it will only be shown if you navigated to the level from the Demonlist."
+		},
+		"demonlist": {
+			"type": "title",
+			"name": "Demonlist"
+		},
+		"increase-levels-per-page": {
+			"type": "bool",
+			"name": "Increase levels per page",
+			"default": false,
+			"description": "Increases the number of levels on one page in the demonlist from 10 to 25."
+		}
+	},
+	"resources": {
+		"sprites": [
+			"resources/BGs/*.png",
+			"resources/icons/*.png"
+		]
+	},
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"links": {
+		"source": "https://github.com/Gild56/gild_list_mod"
+	},
+	"tags": [
+		"online",
+		"interface"
+	]
+}
