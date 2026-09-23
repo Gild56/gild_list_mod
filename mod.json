@@ -6,8 +6,8 @@
 		"mac": "2.2081",
 		"ios": "2.2081"
 	},
-	"id": "gild56.gildlistpositions",
-	"name": "Gild List",
+	"id": "gild56.gild_list",
+	"name": "Gild List Integration",
 	"version": "v1.0.0",
 	"developer": "Gild56",
 	"description": "Gild56's List integration for Geometry Dash.",
@@ -43,7 +43,9 @@
 		"geode.node-ids": ">=v1.23.3"
 	},
 	"links": {
-		"source": "https://github.com/Gild56/gild_list_mod"
+		"homepage": "https://gild56-website.onrender.com/lists/gild/classic",
+		"source": "https://github.com/Gild56/gild_list_mod",
+		"community": "https://discord.gg/QnSdYnmPPZ"
 	},
 	"tags": [
 		"online",
